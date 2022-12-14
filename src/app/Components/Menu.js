@@ -54,7 +54,7 @@ export default function SwipeableTemporaryDrawer() {
         {['Home','Shirts', 'Pants', 'Under shirt', 'Shoes','Long Sleeve shirts','Long Sleeve pants'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
-              <ListItemText ><Link to="/products"><span style={{textAlign:"center",fontSize:"15px",color:"black"}} >{text}</span></Link></ListItemText>
+              <ListItemText ><Link to="https://elaborate-capybara-c225e1.netlify.app/products"><span style={{textAlign:"center",fontSize:"15px",color:"black"}} >{text}</span></Link></ListItemText>
             </ListItemButton>
           </ListItem>
         ))}
