@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://127.0.0.1:8000/addOrder/";
+const URL = "https://back-testing3.onrender.com/addOrder/";
 
 export function AddOrder(data) {
   console.log(data)
