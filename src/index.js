@@ -20,7 +20,7 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route path="https://elaborate-capybara-c225e1.netlify.app/" element={<App />}>
             <Route path="register" element={<Register />}></Route>
             <Route path="products" element={<ProductsCards />}></Route>
             <Route path="login" element={<LoginPage />} />
